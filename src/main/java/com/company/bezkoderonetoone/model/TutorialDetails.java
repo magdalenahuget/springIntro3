@@ -54,4 +54,12 @@ public class TutorialDetails {
     public void setCreatedBy(String createdBy) {
         this.createdBy = createdBy;
     }
+
+    public void setTutorial(Tutorial tutorial) {
+        this.tutorial = tutorial;
+    }
+
+    public Tutorial getTutorial() {
+        return tutorial;
+    }
 }
